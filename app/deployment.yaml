@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: wils-app
-        image: wil42/playground:v2 # ou v2
+        image: wil42/playground:v1 # ou v2
         ports:
         - containerPort: 8888 
 
@@ -31,5 +31,5 @@ spec:
     app: wils-app
   ports:
     - protocol: TCP
-      port: 80
+      port: 443
       targetPort: 8888
